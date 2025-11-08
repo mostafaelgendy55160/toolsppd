@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>iLoveConverts Pro | Documentation by AppsPlaces</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/lightbox/dist/ekko-lightbox.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body class="body-purple">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <i class="fas fa-fighter-jet icon"></i>
+                            <span class="text-highlight">iLoveConverts</span><span class="text-bold"> Pro</span>
+                        </a>
+                    </h1>
+                </div>
+                <!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Folder Structure</li>
+                </ol>
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><span aria-hidden="true" class="icon icon_lifesaver"></span> Folder Structure
+                    </h1>
+                    <div class="meta"><i class="far fa-clock"></i> Last updated: 18th March, 2021</div>
+                </div>
+                <!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="project-folder-structure" class="doc-section">
+                                <h2 class="section-title">Folder Structure</h2>
+                                <div class="section-block">
+                                    <p>Let's go through the files and folders of the app. </p>
+                                    <div class="screenshot-holder">
+                                        <img class="img-fluid" src="assets/images/5.png" alt="screenshot" />
+                                    </div>
+
+                                    <p><strong>In the root of the project we have the following important
+                                            files and folders.</strong></p>
+
+                                    <h3 class="block-title">1. /node_modules</h3>
+                                    <p>The npm packages installed in the project with the
+                                        <code>&lt;npm install&gt;</code> command.
+                                    </p>
+
+                                    <h3 class="block-title">2. /src</h3>
+                                    <p>This folder is the place where the developers do most of their work. When you
+                                        navigate into the Src folder you’ll be able to see 4 other folders inside the
+                                        src folder. They are app folder, assets folder, pages folder, theme folder.</p>
+
+                                    <p><strong>Under this folder you will find the following important folders and
+                                            files.</strong></p>
+
+                                    <h3 class="block-title">3. /assets</h3>
+                                    <p>Assets Folder contains all the images, fonts which are used in the app. Also
+                                        other assets of the app goes here too.</p>
+
+                                    <h3 class="block-title">4. /environments</h3>
+                                    <p>Under this folder are configuration files used by the Angular CLI to manage the
+                                        different environment variables.</p>
+
+                                    <h3 class="block-title">6. /src/index.html</h3>
+                                    <p>src/index.html is the main entry point for the app, though its purpose is to set
+                                        up scripts, CSS includes, and bootstrap, or start running our app. We won’t
+                                        spend much of our time in this file.</p>
+
+                                    <p><strong>Let’s start with the app folder</strong></p>
+
+                                    <div class="screenshot-holder">
+                                        <img class="img-fluid" src="assets/images/6.png" alt="screenshot" />
+                                    </div>
+
+                                    <p>The App folder is the largest folder because it contains all the code of our
+                                        ionic app. It has all the components, modules, pages, services and styles you
+                                        will use to build your app.</p>
+
+                                    <p><strong>Inside the /app folder there are also some important files:</strong></p>
+
+
+                                    <h3 class="block-title">app.component.html</h3>
+                                    <p>This serves as the skeleton of the app. Typically has a <ion-router-outlet> to
+                                            render the routes and their content. It can also be wrapped with content
+                                            that you want to be in every page. In this app we
+                                            added the side menu in this file.
+                                    </p>
+
+                                    <h3 class="block-title">app.component.ts</h3>
+                                    <p>It defines the basic structure and initial navigation of the app.</p>
+
+                                    <h3 class="block-title">app-routing.module.ts</h3>
+                                    <p>Here we define the main routes. Child routes of other lazy modules are defined
+                                        inside those modules. These routes are registered to the Angular RouterModule in
+                                        the AppModule.</p>
+
+                                    <h3 class="block-title">app.module.ts</h3>
+                                    <p>This is the main module of the ionic project.</p>
+
+                                    <h3 class="block-title">Component Folder</h3>
+                                    <p>This folder contains the components which are used many pages all over the apps.
+                                    </p>
+
+                                    <h3 class="block-title">Pages Folder</h3>
+                                    <p>Each page has its own folder. Within that folder you will find every related file
+                                        for that page. This includes the html for the layout, sass for the styles and
+                                        the main page component. </p>
+
+                                    <h3 class="block-title">Service Folder</h3>
+                                    <p> This folder is for all the services you will use to access the data that will be
+                                        presented in the app.
+
+                                        In this first part we will only focus on the local data json files.</p>
+                                </div>
+                            </section>
+                        </div>
+                        <!--//content-inner-->
+                    </div>
+                    <!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <a class="nav-link scrollto" href="#project-folder-structure">Project Folder
+                                    Structure</a>
+                            </nav>
+                            <!--//doc-menu-->
+                        </div>
+                    </div>
+                    <!--//doc-sidebar-->
+                </div>
+                <!--//doc-body-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//doc-wrapper-->
+    </div>
+    <!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a
+                    href="https://codecanyon.net/user/appsplaces" target="_blank">AppsPlaces</a></small>
+        </div>
+    </footer>
+    <!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+
+</html>

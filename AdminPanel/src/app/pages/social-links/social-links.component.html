@@ -1,0 +1,59 @@
+<!--
+  - Social Links Settings Page
+  - @author    AppsPlaces <appsplaces@gmail.com>
+  - @copyright Copyright (c) 2021
+  - @license   AppsPlaces
+-->
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-xl-10 col-lg-12 col-md-9">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="p-5">
+                        <!-- Page Titles -->
+                        <div class="text-center">
+                            <h1 class="h4 text-gray-900 mb-2">Social Links</h1>
+                            <p class="mb-4">Setup yours social links. Social media icons can be displayed on your site
+                                in top menu.</p>
+                            <h1 class="h4 text-success mb-2" *ngIf="success">Successfully Saved</h1>
+                        </div>
+
+                        <!-- Social Links Input Form -->
+                        <form class="user">
+                            <div class="form-group">
+
+                                <!-- Facebook -->
+                                <label>Facebook Link</label>
+                                <input type="text" class="form-control" id="facebook" aria-describedby="facebook"
+                                    placeholder="Enter Your facebook link..." [(ngModel)]="facebook" name="facebook">
+
+                                <div class="my-2"></div>
+
+                                <!-- Twitter -->
+                                <label>Twitter Link</label>
+                                <input type="text" class="form-control" id="twitter" aria-describedby="twitter"
+                                    placeholder="Enter Your twitter link..." [(ngModel)]="twitter" name="twitter">
+
+                                <div class="my-2"></div>
+
+                                <!-- Youtube -->
+                                <label>Youtube Link</label>
+                                <input type="text" class="form-control" id="youtube" aria-describedby="youtube"
+                                    placeholder="Enter Your Youtube link..." [(ngModel)]="youtube" name="youtube">
+                            </div>
+
+                            <div class="my-2"></div>
+
+                            <!-- Button -->
+                            <a class="btn btn-success btn-user btn-block text-white"
+                                (click)="save(facebook, twitter, youtube)">
+                                Save
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

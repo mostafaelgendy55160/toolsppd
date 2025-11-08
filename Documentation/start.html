@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>iLoveConverts Pro | Documentation by AppsPlaces</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <i class="fas fa-fighter-jet icon"></i>
+                            <span class="text-highlight">iLoveConverts</span><span class="text-bold"> Pro</span>
+                        </a>
+                    </h1>
+
+                </div>
+                <!--//branding-->
+
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Quick Start</li>
+                </ol>
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><i class="icon fa fa-paper-plane"></i> Quick Start</h1>
+                    <div class="meta"><i class="far fa-clock"></i> Last updated: 18th March, 2021</div>
+                </div>
+                <!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+
+                            <section id="introduction-section" class="doc-section">
+                                <h2 class="section-title">Introduction</h2>
+                                <div class="section-block">
+                                    <div class="callout-block callout-success">
+                                        <!--//icon-holder-->
+                                        <div class="icon-holder">
+                                            <i class="fas fa-seedling"></i>
+                                        </div>
+                                        <div class="content">
+                                            <p><strong>Item Name : </strong>iLoveConverts Pro- Online Converter Tools
+                                            </p>
+                                            <p><strong>Item Version : </strong> v 1.0</p>
+                                            <p><strong>Author : </strong> <a
+                                                    href="https://codecanyon.net/user/appsplaces"
+                                                    target="_blank">appsplaces</a></p>
+                                        </div>
+                                        <!--//content-->
+                                    </div>
+                                    <p>First of all, Thank you so much for purchasing this application and for
+                                        being a loyal customer.
+                                        <strong>You are awesome!</strong>
+                                        <br> You are entitled to get free lifetime updates to this product +
+                                        exceptional support from the author directly.
+                                    </p>
+
+                                    <p>This documentation is to help you regarding each step of customization.
+                                        Please go through the documentation carefully to understand how this
+                                        app is made and how to edit this properly. Basic Angular 11
+                                        knowledge is required to customize this app. You may learn basics
+                                        <a href="https://angular.io/tutorial" target="_blank">here</a>
+                                    </p>
+
+                                    <a href="https://codecanyon.net/user/appsplaces/portfolio" class="btn btn-green"
+                                        target="_blank"><i class="fas fa-download"></i> Download
+                                        iLoveConverts Pro</a>
+                                </div>
+                            </section>
+
+                            <section id="requirements-section" class="doc-section">
+                                <h2 class="section-title">Requirements</h2>
+                                <div class="section-block">
+                                    <p>You will need the following sofwares to customize this app.</p>
+                                    <ol>
+                                        <li>Code Editing Software (eg:VS Code, Dreamweaver, Sublime Text or
+                                            Notepad)
+                                        </li>
+                                        <li>Web Browser for testing (eg: Google Chrome or Mozilla Firefox)</li>
+                                        <li>Firebase Account for changing the app logo and titles etc</li>
+                                    </ol>
+                                </div>
+                            </section>
+
+                            <section id="prerequisite-section" class="doc-section">
+                                <h2 class="section-title">Prerequisite</h2>
+                                <div class="section-block">
+                                    <ol>
+                                        <li>To use the Angular framework, you should be familiar with the following:
+                                            JavaScript, HTML, CSS. Knowledge of TypeScript is helpful, but not required.
+                                        </li>
+                                        <li>Need to install the latest version of Angular 11. Verify that you are
+                                            running
+                                            latest version of node and npm. Older versions produce errors, but newer
+                                            versions are fine.
+                                            <section id="prerequisite-section" class="doc-section">
+                                        </li>
+                                    </ol>
+                                </div>
+                            </section>
+
+                            <section id="environmentsetup-section" class="doc-section">
+                                <h2 class="section-title">Environment Setup</h2>
+                                <div class="section-block">
+                                    <h5>Setting up the local environment and workspace.</h5>
+
+                                    <p>To install Angular on your local system, you need the following: Node.js and NPM
+                                        package manager</p>
+
+                                    <ul>
+                                        <li>This application requires Angular 11 version of Node.js. For more
+                                            information on installing Node.js, see <a href="https://nodejs.org/en/"
+                                                target="_blank">nodejs.org</a></li>
+                                        <li>Angular, the Angular CLI, and Angular applications depend on<a
+                                                href="https://docs.npmjs.com/about-npm/index.html" target="_blank">npm
+                                                packages</a>. To check that you have the npm client installed, run npm
+                                            -v in a terminal window.</li>
+                                    </ul>
+
+                                    <h5>To install the Angular CLI, open a terminal window and run the following
+                                        command:
+                                    </h5>
+                                    <div class="code-block">
+                                        <p><code>npm install -g @angular/cli</code></p>
+                                    </div>
+
+                                    <p>You may need to add “sudo” in front of these commands to install the utilities
+                                        globally.</p>
+
+                                    <p>For more information please see the Angular Instalation doc - <a
+                                            href="https://angular.io/guide/setup-local"
+                                            target="_blank">https://angular.io/guide/setup-local</a></p>
+                                </div>
+                            </section>
+
+
+
+                            <section id="setup-firebase-section" class="doc-section">
+                                <h2 class="section-title">Setup Firebase</h2>
+                                <div class="section-block">
+                                    <p>iLoveConverts Pro using the firebase database for changing the application
+                                        logos, titles etc.</p>
+                                    <ul>
+                                        <li>First, If you don't have any firebase account then you need to create a
+                                            firebase account.</li>
+                                        <li>You will need to start by setting up your project on the Firebase console.
+                                            First, go <a href="https://console.firebase.google.com/"
+                                                target="_blank">here</a> to find the console.</li>
+                                        <li>Click on the card with the plus sign that says Add project. In the pop-up
+                                            that appears you can edit the project name and settings. Change the name to
+                                            anything you like, accept the terms and conditions, and leave everything
+                                            else at its default.</li>
+                                        <li>In the Firebase console click on the gear icon next to Project Overview to
+                                            open the project settings. In the General tab scroll down to the bottom. You
+                                            will see a notice telling you that there are no apps in your project. You
+                                            will not be adding an app here but you can get the information by clicking
+                                            on the web icon “</>”. A pop-up appears with your API key, database URL etc.
+                                            Copy the information of `firebaseConfig`.</li>
+                                        <img class="img-fluid" src="assets/images/1.png">
+                                        <li>Next, Open your `iLoveConvertsPro` and go into the project
+                                            `src/environments/environment.ts` & `src/environments/environment.prod.ts`
+                                            file and paste here firebase configuration information. In the same way,
+                                            open `AdminPanel` and go into the project `src/environments/environment.ts`
+                                            & `src/environments/environment.prod.ts` files and paste this information.
+                                        </li>
+                                        <img class="img-fluid" src="assets/images/2.png">
+                                        <li>Create a admin user for admin panel login. In the firebase console go into
+                                            the Authentication section. In the `Users` tab click on Add User button and
+                                            fill up your admin panel email and password which is necessary for admin
+                                            panel login.</li>
+                                        <img class="img-fluid" src="assets/images/3.png">
+                                        <li>And next go into the `Sign-in method` tab and click on Email/Password from
+                                            the list and enable and save it.</li>
+                                        <img class="img-fluid" src="assets/images/4.png">
+                                        <li>Goo into the Cloud Firestore section and click on Rules tab and
+                                            replace the rules with the following rules.</li>
+                                        <pre><code class="language-markup">service cloud.firestore {
+    match /databases/{database}/documents {
+        match /{document=**} {
+            allow read;
+            allow write: if request.auth != null;
+        }
+    }
+}
+                                            </code></pre>
+                                        <li>Finally go into the Storage section and click on Rules tab and replace the
+                                            rules with the following rules.</li>
+                                        <pre><code class="language-markup">rules_version = '2';
+service firebase.storage {
+    match /b/{bucket}/o {
+        match /{allPaths=**} {
+            allow read;
+            allow write: if request.auth != null;
+        }
+    }
+}
+                                        </code></pre>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <!-- Google Adsense -->
+                            <section id="google-adsense-setup-section" class="doc-section">
+                                <h2 class="section-title">Google Adsense</h2>
+                                <div class="section-block">
+                                    <p>Google AdSense is a simple and free tool that will allow you to earn money by
+                                        displaying ads on your site.</p>
+
+                                    <p>You just enter your Google Adsense Client and Google Adsense Slot in the project.
+                                        Go into the project
+                                        <b>src/environments/environment.ts`</b> <br />
+                                        <b>src/environments/environment.prod.ts`</b> <br />
+                                        and replace with your Adsense client and slot number.
+                                    </p>
+
+                                    <pre><code class="language-markup">adClient: 'ca-pub-xxxxxxxxxxxxxxxx', // Google Adsense AdClient
+adSlot: xxxxxxxxxxxxxx, // Google Adsense AdSlot</code></pre>
+                                </div>
+
+                                <p>We used the ng2-adsense plugin for integration google adsense, see the documentation
+                                    from here- <a href="https://github.com/scttcper/ng2-adsense"
+                                        target="_blank">https://github.com/scttcper/ng2-adsense</a></p>
+                            </section>
+
+                            <!-- Google Analytics -->
+                            <section id="google-analytics-setup-section" class="doc-section">
+                                <h2 class="section-title">Google Analytics</h2>
+                                <div class="section-block">
+                                    <p>Google Analytics is a web analytics service offered by Google that tracks and
+                                        reports website traffic, reports etc.</p>
+
+                                    <p>We have integrated analytics in this application to use this services you just
+                                        need to enter your Google Analytics Code in the project. Go into the project
+                                        <b>src/environments/environment.ts` &</b> <br />
+                                        <b>src/environments/environment.prod.ts`</b> <br />
+                                        and replace with your analytics code.
+                                    </p>
+
+                                    <pre><code class="language-markup">ga: 'G-XXXXXXXXXX', // Google Analytics Code</code></pre>
+                                </div>
+
+                                <p>We used the Ngx Google Analytics plugin for integration google analytics, see the
+                                    documentation
+                                    from here- <a href="https://www.npmjs.com/package/ngx-google-analytics"
+                                        target="_blank">https://www.npmjs.com/package/ngx-google-analytics</a></p>
+                            </section>
+
+                            <!-- Google Search Console Webmaster Tools -->
+                            <section id="google-search-console-webmaster-setup-section" class="doc-section">
+                                <h2 class="section-title">Google Search Console Webmaster Tools</h2>
+                                <div class="section-block">
+                                    <p>Search Console tools and reports help you measure your site's Search traffic and
+                                        performance, fix issues, and make your site shine in Google Search results.</p>
+
+                                    <p>Here we will give you a complete guide how to setup google Webmaster Tools in
+                                        your project.</p>
+
+                                    <p>To set up Webmaster Tools, visit <a
+                                            href="http://www.google.com/webmasters/tools">http://www.google.com/webmasters/tools</a>
+                                        and sign in with your Google account.</p>
+
+                                    <h2>Add a new property</h2>
+                                    <p>To add a new property:</p>
+
+                                    <p>Open the property selector dropdown in any Search Console page.</p>
+                                    <p>Select + Add property on the dropdown.</p>
+                                    <p>Choose the type of property to add and then enter your site’s URL.</p>
+
+                                    <img src="assets/images/google-search-console-1.png" width="600">
+
+
+                                    <p>Next, you’ll need to verify that the site is yours. Lets verify domain ownership
+                                        via DNS record.
+                                    </p>
+
+                                    <img src="assets/images/google-search-console-2.png" width="600">
+
+                                    <p>If you choose URL prefix property option, You'll be given a number of
+                                        options. Just follow the steps of each section.</p>
+
+                                    <img src="assets/images/google-search-console-3.png" width="600">
+
+                                    <p>If you want to add a HTML meta tag to your site's home page, replace with your
+                                        meta tag at <strong>index.html</strong> file.</p>
+
+                                    <pre><code class="language-markup">// Google Search Console Webmaster Tools
+< meta name="google-site-verification" content="place_your_google_search_console_site_verification_id" /></code></pre>
+
+                                    <p>For more details, see the
+                                        documentation
+                                        from here- <a
+                                            href="https://support.google.com/webmasters/answer/34592?hl=en#zippy=%2Cdomain-property%2Cgoogle-hosted-property%2Curl-prefix-property"
+                                            target="_blank">https://support.google.com/webmasters/answer/34592?hl=en#zippy=%2Cdomain-property%2Cgoogle-hosted-property%2Curl-prefix-property</a>
+                                    </p>
+                            </section>
+
+                            <section id="configuration-meta-tags" class="doc-section">
+                                <h2 class="section-title">Configuration of Meta Tags</h2>
+                                <div class="section-block">
+                                    <p>A quick rundown of the Angular Meta service, which makes it easy to get and set
+                                        various meta tags on a route</p>
+
+                                    <p>We have created a service for meta tags in our project. You will find that
+                                        service at - <b>`src/app/services/meta-service.service.ts`</b>. At the top of
+                                        this service we have declare two variables - <b>websiteTitle</b> &
+                                        <b>websiteUrl</b>, you should change these two variables with your website title
+                                        and website Url.
+                                    </p>
+
+                                    <pre><code class="language-markup">// Change and replace with your website information
+websiteTitle: any = 'your website title';
+websiteUrl: any = 'your website url';
+})</code></pre>
+
+
+                                    <div>At this service you will get five functions for adding meta tags in your
+                                        website. Functions are -
+
+                                        <li><b>setTitle()</b> - Set Meta Title of your sites</li>
+
+
+                                        <li><b>addMetaTags()</b> - Add Meta Tags</li>
+                                        <p>-- Retrieves or creates a set of
+                                            <strong>meta</strong> tag elements in the current HTML document. In this
+                                            function you can modify and replace <b>content</b> of the meta tags.
+                                        </p>
+
+                                        <pre><code class="language-markup">// You can change and update the `content` of meta value
+addMetaTags() {
+    this.meta.addTags([
+    { name: 'author', content: 'Add Author name/Website Name' },
+    { name: 'description', content: 'Add short description of current document' },
+    { name: 'keywords', content: 'Add Some keywords of current document' },
+    
+    // Open Graph / Facebook
+    { property: "og:type", content: 'Your website URL' },
+    { property: "og:url", content: 'Your website URL' },
+    {property: 'og:title', content: 'Add Some keywords of current document' },
+    {property: "og:description", content: 'Add short description of current document' },
+    
+    // Twitter
+    { property: "twitter:url", content: 'Your website URL' },
+    { property: "twitter:title", content: 'Add Some keywords of current document' },
+    { property: "twitter:description", content: 'Add short description of current document' }
+]);
+}</code></pre>
+
+                                        <li><b>getMetaTags()</b> - Get Meta Tags</li>
+                                        <p>-- This meta service function retrieves <b>meta</b> tag element in the
+                                            current
+                                            HTML document.</p>
+
+                                        <li><b>updateMetaTags()</b> - Update Meta Tags</li>
+                                        <p>-- This function helps to modifies an existing <b>meta</b> tag element in the
+                                            current HTML document. This function is called to change meta tags from
+                                            different modules.</p>
+
+                                        <pre><code class="language-markup">// Update Meta Tags
+// @Params {obj} Dynamic content of meta values
+// By calling this function It will immediately update the meta keywords for specific routes 
+updateMetaTags(obj) {
+    this.meta.updateTag({ name: 'description', content: obj.description });
+    this.meta.updateTag({ name: 'keywords', content: obj.keywords });
+    // Open Graph / Facebook
+    this.meta.updateTag({ property: 'og:url', content: obj.ogUrl });
+    this.meta.updateTag({ property: 'og:title', content: obj.ogtitle });
+    this.meta.updateTag({ property: 'og:description', content: obj.ogDescription });
+    // Twitter
+    this.meta.updateTag({ property: "twitter:url", content: obj.twitterUrl });
+    this.meta.updateTag({ property: "twitter:title", content: obj.twitterTitle });
+    this.meta.updateTag({ property: "twitter:description", content: obj.twitterDescription });
+}</code></pre>
+
+                                        <div>
+                                            <p>We have called this function from various modules to update meta tags.
+                                                You
+                                                can update meta tags from these modules.</p>
+
+
+                                            <p><b>1. About Page</b>: Update meta tags on about page from
+                                                <b>src/app/pages/about/about.component.ts</b><br />
+                                                <b>2. Conversion Tools Page</b>: Update meta tags on conversion tools
+                                                page
+                                                from
+                                                <b>src/app/pages/conversion-tools/conversion-tools.component.ts</b><br />
+                                                <b>3. Encryption Tools Page</b>: Update meta tags on Encryption Tools
+                                                page
+                                                from
+                                                <b>src/app/pages/encryption-tools-converter/encryption-tools/encryption-tools.component.ts</b><br />
+                                                <b>4. Image Compress</b>: Update meta tags on Image Compressout page
+                                                from
+                                                <b>src/app/pages/image/image-compress/image-compress-upload/image-compress-upload.component.ts</b><br />
+                                                <b>5. Image Converter Page</b>: Update meta tags on Image Converter page
+                                                from
+                                                <b>src/app/pages/image/image-converter/image-upload/image-upload.component.ts</b><br />
+                                                <b>6. Number Tools Converter Page</b>: Update meta tags on Number Tools
+                                                Converter page from
+                                                <b>src/app/pages/number-tools-converter/number-tools/number-tools.component.ts</b><br />
+                                                <b>7. OCR Tools</b>: Update meta tags on OCR page from
+                                                <b>src/app/pages/ocr/ocr.component.ts</b><br />
+                                                <b>8. Privacy Policy</b>: Update meta tags on Privacy Policy page from
+                                                <b>src/app/pages/privacy-policy/privacy-policy.component.ts</b><br />
+                                                <b>9. Term & Conditions</b>: Update meta tags on Term & Conditions page
+                                                from
+                                                <b>src/app/pages/terms/terms.component.ts</b><br />
+                                                <b>10. Text Tools</b>: Update meta tags on Text Tools page from
+                                                <b>src/app/pages/text-tools-converter/text-tools/text-tools.component.ts</b><br />
+                                                <b>11. Unit Converter Tools</b>: Update meta tags on Unit Converter
+                                                Tools page from
+                                                <b>src/app/pages/unit-converter/all-unit-converter/all-unit-converter.component.ts
+                                                    &
+                                                    src/app/pages/unit-converter/each-unit-converter/each-unit-converter.component.ts</b><br />
+                                            </p>
+                                        </div>
+
+                                        <li><b>removeMetaTags()</b> - Remove Meta Tags</li>
+                                        <p>-- This function helps to remove an existing <b>meta</b> tag element from the
+                                            current HTML document.
+
+                                        </p>
+                                    </div>
+
+
+                                    <p>By default we set the title at index.html file, you should change that title
+                                        also. </p>
+
+                                    <h6>At last, we did not keep those configurations as server dependent because they
+                                        are useful for SEO, if we depend on the server then SEO will be a problem due to
+                                        server problems. So we need to do this configuration with a little bit of
+                                        patience.</h6>
+                                </div>
+                            </section>
+
+                            <section id="run-section" class="doc-section">
+                                <h2 class="section-title">Running</h2>
+                                <div id="step1" class="section-block">
+                                    <p>First you need to download the app from Codecanyou market place.
+                                    </p>
+
+                                    <p>After successfully downloaded `iLoveConvertsPro` then unzip the files, here you
+                                        will get three folders <strong>1. `iLoveConvertsPro`</strong> main website
+                                        <strong>2. AdminPanel</strong> & <strong>3. Documentation</strong>.
+                                    </p>
+                                    <p>open a terminal window `cd` into the `iLoveConvertsPro` project root directory
+                                        and install dependency packages by running `npm install` and then run the
+                                        command `ng serve`. The server will be
+                                        up & running on localhost 4200 port. At browser window, open <a
+                                            href="http://localhost:4200">http://localhost:4200</a></p>
+
+
+                                    <h3>Run Commands</h3>
+
+                                    <div class="code-block">
+                                        <p><code>npm install</code></p>
+                                        <p><code>ng serve</code></p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section id="admin-panel-setup-section" class="doc-section">
+                                <h2 class="section-title">Admin Panel Setup</h2>
+                                <div class="section-block">
+                                    <p>First you need to follow the firebase setup steps and go into the AdminPanel
+                                        `src/environments/environment.ts` & `src/environments/environment.prod.ts`
+                                        files and paste here firebase configuration information.</p>
+
+                                    <p>Open a terminal window `cd` into the `AdminPanel` project root directory
+                                        and install dependency packages by running `npm install` and then run the
+                                        command `ng serve`. The server will be
+                                        up & running on localhost 4200 port. At browser window, open <a
+                                            href="http://localhost:4200">http://localhost:4200</a></p>
+
+                                    <div class="code-block">
+                                        <p><code>npm install</code></p>
+                                        <p><code>ng serve</code></p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section id="production-build-section" class="doc-section">
+                                <h2 class="section-title">Production Build/Deployment</h2>
+                                <div class="section-block">
+                                    <p>You can get a preview of your application using the <b>ng serve --prod</b>
+                                        command that
+                                        starts a local HTTP server such that the application with production files is
+                                        accessible using - <a href="http://localhost:4200">http://localhost:4200</a>.
+                                    </p>
+
+                                    <div class="code-block">
+                                        <p><code>ng serve --prod</code></p>
+                                    </div>
+
+                                    <p>During development, we use the ng serve command to build, watch, and
+                                        serve the application from local memory. For a production usage, you have to
+                                        deploy all the files from the dist folder in
+                                        the HTTP server of your choice.</p>
+
+                                    <p>The output folder is <b>dist/project-name/</b> by default. For example this
+                                        project name
+                                        is iLoveConvertsPro so the output folder you will find at
+                                        <b>dist/iLoveConvertsPro</b>
+                                    </p>
+
+                                    <p>When you are ready to deploy, however, you must use the <b>ng build</b> command
+                                        to build
+                                        the app and deploy the build artifacts elsewhere.</p>
+
+                                    <div class="code-block">
+                                        <p><code>ng build --prod</code></p>
+                                    </div>
+
+                                    <h3>Overview of basic deployment to remote server</h3>
+                                    <p>For the simplest deployment, create a production build and copy the output
+                                        directory to a web server.</p>
+
+                                    <ul>
+                                        <li>Start with the production build:</li>
+                                        <div class="code-block">
+                                            <p><code>ng build --prod</code></p>
+                                        </div>
+
+                                        <li>Copy everything within the output folder (<b>dist/project-name/</b> by
+                                            default) to
+                                            a folder on the server.</li>
+                                    </ul>
+                                    <p>For details documentation - <a href="https://angular.io/guide/deployment"
+                                            target="_blank">https://angular.io/guide/deployment</a></p>
+                                </div>
+                            </section>
+
+
+                            <section id="step-by-step-video-section" class="doc-section">
+                                <h2 class="section-title">Video Tutorials</h2>
+                                <div class="section-block">
+                                    <h5>Setup Firebase:</h5>
+                                    <iframe width="90%" height="400" src="https://www.youtube.com/embed/PyEhInGcfFw"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+
+                                    <h5>Setup Guideline</h5>
+                                    <iframe width="90%" height="400" src="https://www.youtube.com/embed/lmbQtstHmUw"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+
+                                    <h5>Admin Panel Setup Guideline</h5>
+                                    <iframe width="90%" height="400" src="https://www.youtube.com/embed/6pLu_UXdQJ0"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </section>
+
+                        </div>
+                        <!--//content-inner-->
+                    </div>
+                    <!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+
+                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <a class="nav-link scrollto" href="#introduction-section">Introduction</a>
+                                <a class="nav-link scrollto" href="#requirements-section">Requirements</a>
+                                <a class="nav-link scrollto" href="#prerequisite-section">Prerequisite</a>
+                                <a class="nav-link scrollto" href="#environmentsetup-section">Environment Setup</a>
+                                <a class="nav-link scrollto" href="#setup-firebase-section">Setup Firebase</a>
+                                <a class="nav-link scrollto" href="#google-adsense-setup-section">Setup Google
+                                    Adsense</a>
+                                <a class="nav-link scrollto" href="#google-analytics-setup-section">Setup Google
+                                    Analytics</a>
+                                <a class="nav-link scrollto"
+                                    href="#google-search-console-webmaster-setup-section">Google
+                                    Search Console Webmaster Tools</a>
+                                <a class="nav-link scrollto" href="#configuration-meta-tags">Configuration of Meta
+                                    Tags</a>
+                                <a class="nav-link scrollto" href="#run-section">Running</a>
+                                <a class="nav-link scrollto" href="#admin-panel-setup-section">Admin Panel Setup</a>
+                                <a class="nav-link scrollto" href="#production-build-section">Production Build</a>
+                                <a class="nav-link scrollto" href="#step-by-step-video-section">Video Tutorials</a>
+                            </nav>
+                            <!--//doc-menu-->
+
+                        </div>
+                    </div>
+                    <!--//doc-sidebar-->
+                </div>
+                <!--//doc-body-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//doc-wrapper-->
+
+    </div>
+    <!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a
+                    href="https://codecanyon.net/user/appsplaces" target="_blank">AppsPlaces</a></small>
+        </div>
+    </footer>
+    <!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+
+</html>

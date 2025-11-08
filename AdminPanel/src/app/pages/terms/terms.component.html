@@ -1,0 +1,33 @@
+<!--
+  - Term & Condition Page
+  - @author    AppsPlaces <appsplaces@gmail.com>
+  - @copyright Copyright (c) 2021
+  - @license   AppsPlaces
+-->
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-xl-10 col-lg-12 col-md-9">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Page Titles -->
+                    <div class="text-center">
+                        <h1 class="h4 text-gray-900 mb-2">Term & Condition</h1>
+                        <p class="mb-4">Setup yours term & condition page contents here.</p>
+                        <h1 class="h4 text-success mb-2" *ngIf="success">Successfully Saved</h1>
+                    </div>
+
+                    <!-- Text Editor -->
+                    <quill-editor [styles]="{height: '400px'}" [(ngModel)]="content">
+                    </quill-editor>
+
+                    <!-- Save Button -->
+                    <a class="btn btn-success btn-user btn-block text-white" (click)="save()">
+                        Save
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
